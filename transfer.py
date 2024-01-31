@@ -1,16 +1,16 @@
 from solathon.core.instructions import transfer
 from solathon import Client, Transaction, PublicKey, Keypair
 import os
-# client = Client("https://api.testnet.solana.com")
-# public_key = PublicKey("33nY6xCMrHPdhLW4jwkodz1nFN5AbDiXpdzz8v4bUnU3")
+# client = Client("https://api.mainnet-beta.solana.com")
+# public_key = PublicKey("CeAL1zfpz8J8w3dcVyoucqxPzcV3kLApR4GhbuFfiazU")
 # balance = client.get_balance(public_key)
 
 # print(balance)
 
 
 
-# sender = Keypair().from_private_key("5YbpBckEGQkiuEvPpSFp2ApC7LuEowVou9rBFETGTNNMnf5FXF1SQkc3H4VrkBQvN9cazfRiH76TtZwWGKFT41MD")
-# receiver = PublicKey("2HpsUejxMhJcB2JFEeWtk7KUtEMWrfjvDmzT2Asx7Cdb")
+# sender = Keypair().from_private_key("qFTETAX1sdEzPoeSk7jFEZCUoiQAsX9xW2smLhbmnmFy3R2xJ2pe1vJTFwQAw3TFzKeiLLF9YgwuWDT93D1yWBS")
+# receiver = PublicKey("GNka1ZcJCWHWPEojwuQvn4wGM79xmdy7ZsyitiYZkX9T")
 # amount = 20000 # This is the amount in lamports
 
 # instruction = transfer(
