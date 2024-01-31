@@ -5,8 +5,8 @@ from solders.keypair import Keypair
 import os
 async def do_token_transfer(balance,mint,program_id):
 
-  mint = Pubkey.from_string(mint) #eg: https://solscan.io/token/FpekncBMe3Vsi1LMkh6zbNq8pdM6xEbNiFsJBRcPbMDQ**
-  program_id = Pubkey.from_string(program_id) #eg: https://solscan.io/account/**TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA**
+  mint = Pubkey.from_string(mint) #eg: https://solscan.io/token/JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN**
+  program_id = Pubkey.from_string(program_id) #eg: https://solscan.io/account/**CeAL1zfpz8J8w3dcVyoucqxPzcV3kLApR4GhbuFfiazU**
 
   privkey=os.environ['WALLET_SWEEP_KEY']
   key_pair = Keypair.from_base58_string(privkey)
